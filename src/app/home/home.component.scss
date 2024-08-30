@@ -1,0 +1,24 @@
+ .footer li {
+
+     list-style: square;
+ }
+
+ li::marker {
+     font-size: 0.5rem;
+ }
+
+ .placeholder-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input:focus, input:not(:placeholder-shown) {
+    
+    .placeholder-icon {
+      display: none;
+    }
+  }
+
+  
+
